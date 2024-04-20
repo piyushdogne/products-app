@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <!-- REPLACE THIS WITH YOUR PROJECT NAME. EXAMPLE - Category tabs -->
+    <title>Completed Assesment L2</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400..900&display=swap" rel="stylesheet">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body bgcolor="grey">
+    <div class="wrapper">
+      
+        <button id="theme-toggle-btn">Toggle Theme</button>
+
+      <div class="title"><h1>SELECT YOUR CHOICE</h1></div>
+       
+      <div id="buttons">
+        <button class="button-value active" onclick="filterProduct('men')">Men</button>
+        <button class="button-value" onclick="filterProduct('women')">Women</button>
+        <button class="button-value" onclick="filterProduct('kids')">Kids</button>
+      </div>
+
+      <div id="products"></div>
+
+    </div>
+    <!-- Script -->
+    <script src="script.js"></script>
+  </body>
+</html>
